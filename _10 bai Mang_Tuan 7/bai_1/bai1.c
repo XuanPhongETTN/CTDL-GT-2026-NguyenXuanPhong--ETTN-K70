@@ -3,7 +3,7 @@ void timso(int target,int arr[],int n){
     for(int i=0;i<n-1;i++){
         for(int j=i+1;j<n;j++){
             if(arr[i]+arr[j] == target){
-                printf("2 so can tim:(%d,%d)",arr[i],arr[j]);
+                printf("2 so can tim:(%d,%d)\n",arr[i],arr[j]);
                 return;
             }
 
